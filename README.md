@@ -1,22 +1,32 @@
-# Nexus CLI
+# Nexus Core AI - NEXUS V24
 
-Descrição curta e instruções em PT-BR sobre como executar o script `scripts/nexus.py`.
+Este repositório contém o NEXUS CLI — uma interface de linha de comando multi-idioma (Português-BR / English).
+
+## Como executar
+
+1. Clone o repositório:
+
+   git clone https://github.com/kurebobungas/Nexus-Core-AI-WIP-.git
+
+2. Entre na pasta do repositório:
+
+   cd Nexus-Core-AI-WIP-
+
+3. Execute o script:
+
+   python3 nexus.py
 
 ## Dependências
-- Python 3
-- Nenhuma biblioteca externa necessária
+O script usa apenas a biblioteca padrão do Python (urllib, time, sys, os). Recomenda-se ter Python 3.8+ instalado.
 
-## Aviso
-- Este script faz requisições externas para text.pollinations.ai. Use com cautela.
+## Arquivos principais
 
-## Uso Seguro
-- Certifique-se de não enviar informações sensíveis ao utilizar o CLI.
+- `nexus.py` — CLI principal que fornece seleção de idioma e interface interativa com a engine NEXUS.
 
-## Exemplos de Execução
-- Para executar o script, use o seguinte comando:
-```
-python3 scripts/nexus.py
-```
+## Contribuindo
 
-## Saindo do CLI
-- Para sair do CLI, pressione `Ctrl + C`.
+Abra um pull request com suas melhorias. Use a branch `nexus-update` para alterações relacionadas a esta atualização.
+
+---
+
+Gerado automaticamente por GitHub Copilot.
